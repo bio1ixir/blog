@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+        <ul>
+        <!-- Ranges through content/posts/*.md -->
+        {{ range .Pages }}
+            <li>
+                {{.Title}}
+            </li>
+        {{ end }}
+        </ul>
+{{ partial "footer.html" . }}
