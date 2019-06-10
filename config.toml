@@ -1,4 +1,4 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Blog-Bio1ixir"
-theme = "blog-bio1ixir"
+title = "blog"
+theme = "bb"
