@@ -1,3 +1,44 @@
+{{ define "add_css" }}
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat|Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+.container .title {
+        font-family: 'Playfair Display', serif;
+        font-size: 4.4rem;
+        font-weight: 500;
+        padding: 70px 0px 0 0;
+    }
+.container .content {
+    font-size: 1.6rem;
+    font-family: 'Muli', serif;
+    line-height: 2rem;
+}
+
+@media only screen and (min-width:1586px) {
+    
+}
+
+@media only screen and (max-width:1586px) and (min-width:1076px) {
+
+}
+}
+
+@media only screen and (max-width:1076px) {
+
+}
+
+@media only screen and (max-width:776px) {
+
+}
+
+@media only screen and (max-width:754px) {
+
+}
+
+</style>
+{{ end }}
 {{ define "main" }}
     <div class="title">{{ .Title }}</div>
     <div class="content">{{ .Content }}</div>
