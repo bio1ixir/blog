@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog</title>
+    <link>https://bio1ixir.github.io/blog/</link>
+    <description>Recent content on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2019 19:37:44 +0530</lastBuildDate>
+    
+	<atom:link href="https://bio1ixir.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test1</title>
+      <link>https://bio1ixir.github.io/blog/test1/</link>
+      <pubDate>Mon, 10 Jun 2019 19:37:44 +0530</pubDate>
+      
+      <guid>https://bio1ixir.github.io/blog/test1/</guid>
+      <description>svdkjhcuyfdv kjdoiencl ELBEILubflivivIUVEBFCHN</description>
+    </item>
+    
+    <item>
+      <title>Post Fancfffffffy Title</title>
+      <link>https://bio1ixir.github.io/blog/post/</link>
+      <pubDate>Sun, 09 Jun 2019 23:54:44 +0530</pubDate>
+      
+      <guid>https://bio1ixir.github.io/blog/post/</guid>
+      <description>Aadhar though revolutionary, but not a new concept. Many countries have been using a similar system even before Aadhar could undergo strong establishment in India. Malaysian MyKad is one good old example, some more are, Indonesian eKTP, Ghana has its NIA, and Abrid is of Brazil. Be that as it may, but Aadhar definitely has given a tug to the Indian kite in its technological involvement. As of May 2018, 1.</description>
+    </item>
+    
+    <item>
+      <title>Scientific methods</title>
+      <link>https://bio1ixir.github.io/blog/post1/</link>
+      <pubDate>Sun, 09 Jun 2019 23:52:42 +0530</pubDate>
+      
+      <guid>https://bio1ixir.github.io/blog/post1/</guid>
+      <description>Not here to make cumbersome tapestry. Just out of accidental predilection of an idea, here I come with Scientific methods and Experiment Designing.
+ Scientific methods That would be so awful if I start explaining to you the importance of Science and over-the-top deal of certainty in scientific methods. So in laymen&amp;rsquo;s words, you observe, enquire, do background research, make hypothesis, undertake rigorous experiments, formulate and test your hypothesis, modify your hypothesis and make conclusions accordingly to have a rich and juicy theory.</description>
+    </item>
+    
+  </channel>
+</rss>
