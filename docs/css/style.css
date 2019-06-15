@@ -7,8 +7,8 @@
 }
 html {
     background: #ad5389; 
-    background: -webkit-linear-gradient(to top, #3c1053, #ad5389);  
-    background: linear-gradient(to top, #3c1053, #ad5389);
+    background: -webkit-linear-gradient(-27deg, #3c1053, #ad5389);  
+    background: linear-gradient(-27deg, #3c1053, #ad5389);
     min-height: 100%;
 }
 
@@ -34,24 +34,28 @@ body .container {
     transition-delay: 0s;
 }
 
-
-
 .main-logo {
-    float: left;
-    width: 37.5rem;
+    padding: 0px 0px 0px 55px;
+    display: none;
+}
+
+.pool .compact-logo {
+    display: visible;
+    width: 230px;
     height: auto;
-    padding: 0 0.62rem 0 0.62rem;
+    padding: 0 0 100px 0;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
     transition-delay: 0s;
 }
 
-.compact-logo {
-    display: none;
-    width: 225px;
-    height: auto;
-    padding: 0 0 30px 0;
+.pool .compact-logo:hover {
+    -webkit-filter: drop-shadow(0.5rem 0.6rem 0.3rem #ad5389);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 .pool {
@@ -72,17 +76,17 @@ html body .container .pool p {
 }
 
 .overlay2  {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+    position: fixed; 
+    display: none; 
+    width: 100%; 
+    height: 100%; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+    cursor: pointer;
 }
 
 .nav-s {
@@ -299,7 +303,6 @@ footer .tag:hover {
 
 
 
-
 .overlay-left {
     height: 100%;
     width: 0;
@@ -308,8 +311,8 @@ footer .tag:hover {
     top: 0;
     left: 0;
     background: #cb3066;
-    background: -webkit-linear-gradient(to left, #ad5389, #cb3066);  
-    background: linear-gradient(to left, #ad5389, #cb3066);      
+    background: -webkit-linear-gradient(40deg, #2e033b, #a82050);  
+    background: linear-gradient(-50deg, #2e033b, #a82050);      
     overflow-x: hidden;
     transition: 0.5s;
     opacity: 0.9;
@@ -323,8 +326,8 @@ footer .tag:hover {
     top: 0;
     right: 0;
     background: #cb3066;
-    background: -webkit-linear-gradient(to left, #ad5389, #cb3066);  
-    background: linear-gradient(to left, #ad5389, #cb3066);      
+    background: -webkit-linear-gradient(40deg, #2e033b, #a82050);  
+    background: linear-gradient(50deg, #2e033b, #a82050);      
     overflow-x: hidden;
     transition: 0.5s;
     opacity: 0.9;
@@ -334,7 +337,6 @@ footer .tag:hover {
     position: relative;
     top: 25%;
     width: 100%;
-    font-family: 'Cinzel', serif;
     text-align: center;
     margin-top: 2rem;
   }
@@ -343,13 +345,14 @@ footer .tag:hover {
     padding: 0.5rem;
     text-decoration: none;
     font-size: 2.1rem;
+    font-family: 'Cinzel', serif;
     color: white;
     display: block;
     transition: 0.3s;
   }
 
   .overlay-left a:hover, .overlay-left a:focus, .overlay-r a:hover, .overlay-r a:focus {
-    color: black;
+    color: #000000;
     font-size: 300%;
   }
 
@@ -360,13 +363,13 @@ footer .tag:hover {
     font-size: 3.6rem;
   }
  
+ 
 
   @media screen and (max-height: 450px) {
     .overlay-left a, .overlay-r a {font-size: 1.2rem}
 
     .overlay-left a:hover, .overlay-left a:focus, .overlay-r a:hover, .overlay-r a:focus {
-        font-size: 200%;
-        color: black;
+        font-size: 200%
     }
     .overlay-r .closebtn, .overlay-left .closebtn {
     font-size: 3rem;

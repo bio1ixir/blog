@@ -6,26 +6,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog-Bio1ixir</title>
-    <link rel="stylesheet" href="https://bio1ixir.github.io/blog/css/style.css"> 
-    <link rel="stylesheet" media="screen and (max-width:1586px)" href="https://bio1ixir.github.io/blog/css/mq1.css"> 
-    <link rel="stylesheet" media="screen and (max-width:1076px)" href="https://bio1ixir.github.io/blog/css/mq2.css"> 
-    <link rel="stylesheet" media="screen and (max-width:776px)" href="https://bio1ixir.github.io/blog/css/mq3.css"> 
-    <link rel="stylesheet" media="screen and (max-width:754px)" href="https://bio1ixir.github.io/blog/css/mq4.css"> 
+    <title>Blog</title>
+    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" media="screen and (max-width:1586px)" href="/css/mq1.css"> 
+    <link rel="stylesheet" media="screen and (max-width:1076px)" href="/css/mq2.css"> 
+    <link rel="stylesheet" media="screen and (max-width:776px)" href="/css/mq3.css"> 
+    <link rel="stylesheet" media="screen and (max-width:754px)" href="/css/mq4.css"> 
     
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-a {
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Metamorphous&display=swap');
+.article-info {
+    display: grid;
+    padding: 20px 0 10px 0;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto; 
+}
+
+.container .box .title a {
+        font-family: 'Metamorphous', cursive;
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 70px 0px 0 0;
+        text-decoration: none;
+        overflow: scroll;
+    }
+.container .overview {
+    font-size: 1.4rem;
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 30px 3vw;
+    line-height: 2rem;
+}
+
+.pub-date, .eta, .author {
+    font-size: 1rem; 
+    font-family: 'Nixie One', cursive;
+    font-weight: 600;
+    line-height: 2rem;
+    color:rgba(64, 4, 82, 0.541);
+    padding: 0px 0px 0 10px;
+
+}
+
+code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color: rgb(145, 25, 139);
+}
+.overview a {
     text-decoration: none;
     color:rgb(199, 62, 158);
 }
 
-a:hover {
+.overview a:hover {
     text-decoration: underline;
 }
+
+.icon {
+    display: inline-block;
+    stroke: currentColor;
+    fill: none;
+    position: relative;
+    top: 0px;
+    height: 1rem;
+    width: 1rem;
+}
+
+@media only screen and (max-width:1076px) {
+    .box:hover {
+    box-shadow: 0rem 0rem 1.5rem #66176d;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+    .box {
+        transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+}
+
+@media only screen and (max-width:776px) {
+    .container .overview {
+        font-size: 1.2rem;
+        padding: 0 2vw;
+        line-height: 1.8rem;
+    }
+    .box {
+        transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+    .box:hover {
+    box-shadow: 0rem 0rem 1.5rem #66176d;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+}
+
+@media only screen and (max-width:667px) {
+    .article-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    }
+    .container .overview {
+        font-size: 1.2rem;
+        padding: 0 2vw;
+        line-height: 1.8rem;
+    }
+    .box {
+        transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+    .box:hover {
+    box-shadow: 0rem 0rem 1.5rem #66176d;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+}
+
+@media only screen and (max-width:476px) {
+    .container .overview {
+    font-size: 1rem;
+    padding: 0 0vw;
+    line-height: 1.7rem;
+    }
+    .article-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    }
+    .box {
+        margin: 1rem 1rem 1rem;
+    }
+    .box:hover {
+    box-shadow: 0rem 0rem 0rem;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+}
+.box {
+    border: none;
+    border-radius: 15px;
+    padding: 0px 20px 20px 20px;
+    margin: 2rem 2rem 2rem 2rem;
+    display: block;
+}
+
+
+
+
 </style>
 
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://bio1ixir.github.io/blog/css/animate.css">
+    <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -36,9 +186,9 @@ a:hover {
     <div id="nav-l" class="overlay-left">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNavl()">&times;</a>
             <div class="overlay-content">
-              <a href="#">Blog</a>
+              <a href="/">Blog</a>
               <a href="#">Projects</a>
-              <a href="#">Events</a>
+              <a href="#">Feeds</a>
             </div>
           </div>
 
@@ -56,7 +206,7 @@ a:hover {
         <div class="nav-left">
             <div class="el1"><a href="/">Blog</a></div>
             <div class="el2"><a href="#">Projects</a></div>
-            <div class="el3"><a href="#">Events</a></div> 
+            <div class="el3"><a href="#">Feeds</a></div> 
         </div> 
 
         <div class="nav-s animated bounceInRight delay-0s">
@@ -83,18 +233,79 @@ a:hover {
     </div>
         <div class="main-content">
             
+
     
-        <li>
-                2019-06-10 | <a href="https://bio1ixir.github.io/blog/test1/">test1</a>
-        </li>
+            <div class="box">
+                <div class="title"><a href="/test1/">test1</a> </div>
+                <div class="article-info">
+                    <div class="author"><i class="fa fa-pencil-square-o" area-hidden="true"></i> </div>
+                    <div class="eta">
+                        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 15 15"></polyline>
+                        </svg>
+                        1 mins read </div>
+                    <div class="pub-date">
+                        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                        
+                    </svg> 
+                    Jun 10, 2019</div>
+                </div>
+                <hr>
+                <div class="overview">...<a href="/test1/">read more</a></div>
+            </div><br>
     
-        <li>
-                2019-06-09 | <a href="https://bio1ixir.github.io/blog/post/">Post Fancfffffffy Title</a>
-        </li>
+            <div class="box">
+                <div class="title"><a href="/post/">Post Fancfffffffy Title</a> </div>
+                <div class="article-info">
+                    <div class="author"><i class="fa fa-pencil-square-o" area-hidden="true"></i> archit</div>
+                    <div class="eta">
+                        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 15 15"></polyline>
+                        </svg>
+                        4 mins read </div>
+                    <div class="pub-date">
+                        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                        
+                    </svg> 
+                    Jun 9, 2019</div>
+                </div>
+                <hr>
+                <div class="overview">Aadhar though revolutionary, but not a new concept. Many countries have been using a similar system even before Aadhar could undergo strong establishment in India. Malaysian MyKad is one good old example, some more are, Indonesian eKTP, Ghana has its NIA, and Abrid is of Brazil. Be that as it may, but Aadhar definitely has given a tug to the Indian kite in its technological involvement. As of May 2018, 1.21 billion Aadhar holders, which makes  more than 99% of adult population, clearly reflects the hight of success of implementation of Aadhar in India. Or should I say, *piecemeal success*. I pass Aadhar in implementation, but what about the execution of services? Do *Aadhar act 2009* expansion to *Targeted Delivery of Financial and other subsidies, Benefits and Service act 2016* really mean it?...<a href="/post/">read more</a></div>
+            </div><br>
     
-        <li>
-                2019-06-09 | <a href="https://bio1ixir.github.io/blog/post1/">Scientific methods</a>
-        </li>
+            <div class="box">
+                <div class="title"><a href="/post1/">Scientific methods</a> </div>
+                <div class="article-info">
+                    <div class="author"><i class="fa fa-pencil-square-o" area-hidden="true"></i> Archit Dwivedi</div>
+                    <div class="eta">
+                        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 15 15"></polyline>
+                        </svg>
+                        5 mins read </div>
+                    <div class="pub-date">
+                        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                        
+                    </svg> 
+                    Jun 9, 2019</div>
+                </div>
+                <hr>
+                <div class="overview">That would be so awful if I start explaining to you the importance of Science and over-the-top deal of certainty in scientific methods. So in laymen&#39;s words, you observe, enquire, do background research, make hypothesis, undertake rigorous experiments, formulate and test your hypothesis, modify your hypothesis and make conclusions accordingly to have a rich and juicy theory. This is the standard model or flow chart, how the research methodology should be....<a href="/post1/">read more</a></div>
+            </div><br>
     
 
         </div>
@@ -111,6 +322,6 @@ a:hover {
     </body>
     
     
-    <script type="text/javascript" src="https://bio1ixir.github.io/blog/js/main.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
     
     </html>

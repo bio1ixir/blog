@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bio1ixir.github.io/blog/test1/</loc>
+    <loc>/test1/</loc>
     <lastmod>2019-06-10T19:37:44+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://bio1ixir.github.io/blog/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-06-09T23:54:44+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://bio1ixir.github.io/blog/post1/</loc>
+    <loc>/post1/</loc>
     <lastmod>2019-06-09T23:52:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://bio1ixir.github.io/blog/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bio1ixir.github.io/blog/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bio1ixir.github.io/blog/</loc>
+    <loc>/</loc>
     <lastmod>2019-06-10T19:37:44+05:30</lastmod>
     <priority>0</priority>
   </url>

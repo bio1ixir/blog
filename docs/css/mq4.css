@@ -6,11 +6,11 @@
    
     }
 
-    .main-logo {
+    .pool .main-logo {
         display: none;
     }
 
-    .compact-logo {
+    .pool .compact-logo {
         display: inline-block;
         padding: 0px 0px 0px 55px;
     }
