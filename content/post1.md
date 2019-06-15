@@ -3,6 +3,9 @@ date = "2019-06-09T23:52:42+05:30"
 draft = false
 title = "Scientific methods"
 author = "Archit Dwivedi"
+
+summary = "That would be so awful if I start explaining to you the importance of Science and over-the-top deal of certainty in scientific methods. So in laymen's words, you observe, enquire, do background research, make hypothesis, undertake rigorous experiments, formulate and test your hypothesis, modify your hypothesis and make conclusions accordingly to have a rich and juicy theory. This is the standard model or flow chart, how the research methodology should be."
+
 +++
 
 > Not here to make cumbersome tapestry. Just out of accidental predilection of an idea, here I come with Scientific methods and Experiment Designing.

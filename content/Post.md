@@ -3,6 +3,8 @@ date = "2019-06-09T23:54:44+05:30"
 draft = false
 title = "Post Fancfffffffy Title"
 author = "archit"
+summary = "Aadhar though revolutionary, but not a new concept. Many countries have been using a similar system even before Aadhar could undergo strong establishment in India. Malaysian MyKad is one good old example, some more are, Indonesian eKTP, Ghana has its NIA, and Abrid is of Brazil. Be that as it may, but Aadhar definitely has given a tug to the Indian kite in its technological involvement. As of May 2018, 1.21 billion Aadhar holders, which makes  more than 99% of adult population, clearly reflects the hight of success of implementation of Aadhar in India. Or should I say, *piecemeal success*. I pass Aadhar in implementation, but what about the execution of services? Do *Aadhar act 2009* expansion to *Targeted Delivery of Financial and other subsidies, Benefits and Service act 2016* really mean it?"
+
 +++
 
 

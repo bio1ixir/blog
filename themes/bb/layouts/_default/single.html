@@ -95,9 +95,6 @@ code {
     padding: 0 0vw;
     line-height: 1.7rem;
     }
-    .container .title {
-        font-size: 4.2rem;
-    }
     .pub-date, .eta, .author {
     font-size: 1.2rem; 
     font-family: 'Nixie One', cursive;
@@ -107,7 +104,12 @@ code {
     .container .title {font-size: 3rem}
 
 }
-</style>`
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+</style>
 {{ end }}
 {{ define "main" }}
     <div class="title">{{ .Title }} </div>
