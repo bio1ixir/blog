@@ -75,20 +75,23 @@ code {
     width: 1rem;
 }
 
-@media only screen and (max-width:1076px) {
-    .box:hover {
+
+.box {
+    border: none;
+    border-radius: 15px;
+    padding: 0px 20px 20px 20px;
+    margin: 2rem 2rem 2rem 2rem;
+    display: block;
+}
+
+.box:hover {
     box-shadow: 0rem 0rem 1.5rem #66176d;
     transition-property: all;
     transition-duration: 0.7s;
     transition-timing-function: ease;
     transition-delay: 0s;
     }
-    .box {
-        transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    }
+@media only screen and (max-width:1076px) {
 }
 
 @media only screen and (max-width:776px) {
@@ -97,18 +100,12 @@ code {
         padding: 0 2vw;
         line-height: 1.8rem;
     }
-    .box {
-        transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+    .main-content .box {
+        margin: 0px 0 0 -5px;
+        padding-top: 100px;
     }
-    .box:hover {
-    box-shadow: 0rem 0rem 1.5rem #66176d;
-    transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+    .main-content .box:hover {
+    box-shadow: none;
     }
 }
 
@@ -123,18 +120,12 @@ code {
         padding: 0 2vw;
         line-height: 1.8rem;
     }
-    .box {
-        transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+    .main-content .box {
+        margin: 0px 0 0 -5px;
+        padding-top: 70px;
     }
-    .box:hover {
-    box-shadow: 0rem 0rem 1.5rem #66176d;
-    transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+    .main-content .box:hover {
+    box-shadow: none;
     }
 }
 
@@ -149,25 +140,14 @@ code {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     }
-    .box {
-        margin: 1rem 1rem 1rem;
+    .main-content .box {
+        margin: -10px;
+        padding-top: 70px;
     }
-    .box:hover {
-    box-shadow: 0rem 0rem 0rem;
-    transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+    .main-content .box:hover {
+    box-shadow: none;
     }
 }
-.box {
-    border: none;
-    border-radius: 15px;
-    padding: 0px 20px 20px 20px;
-    margin: 2rem 2rem 2rem 2rem;
-    display: block;
-}
-
 
 
 
