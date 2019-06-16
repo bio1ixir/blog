@@ -1,5 +1,5 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "blog"
-theme = "bb"
+theme = "bio1ixir-blog-theme"
 publishDir = "docs"
