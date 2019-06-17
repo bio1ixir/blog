@@ -1,5 +1,5 @@
 +++
-date = "2019-06-17T23:52:42+05:30"
+date = "2019-06-15T23:52:42+05:30"
 draft = false
 title = "Scientific methods and Experiment Designing"
 author = "Archit Dwivedi"
