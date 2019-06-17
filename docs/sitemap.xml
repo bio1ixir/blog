@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/post/</loc>
+    <loc>https://bio1ixir.github.io/blog/evi1haxor/post/</loc>
     <lastmod>2019-06-09T23:54:44+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/blog/post1/</loc>
+    <loc>https://bio1ixir.github.io/blog/evi1haxor/post1/</loc>
     <lastmod>2019-06-09T23:52:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>https://bio1ixir.github.io/blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bio1ixir.github.io/blog/evi1haxor/</loc>
     <lastmod>2019-06-09T23:54:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://bio1ixir.github.io/blog/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+    <loc>https://bio1ixir.github.io/blog/</loc>
     <lastmod>2019-06-09T23:54:44+05:30</lastmod>
     <priority>0</priority>
   </url>
