@@ -13,16 +13,27 @@ $(function() {
         'transition-delay': '0s'});
 
 
-
+          if ($(window).width() <= 600) {
+            $('.el4').css({
+              'font-size': '1.8rem', 
+              'line-height': '0rem', 
+              'padding': '0px 0% 0px 0%',
+              'transition-property': 'all',
+              'transition-duration': '0.5s',
+              'transition-timing-function': 'ease',
+              'transition-delay': '0s'});
+      
+          }
+          else {
         $('.el4').css({
-        'font-size': '2rem', 
+        'font-size': '2.4rem', 
         'line-height': '0rem', 
         'padding': '0px 0% 0px 0%',
         'transition-property': 'all',
         'transition-duration': '0.5s',
         'transition-timing-function': 'ease',
         'transition-delay': '0s'});
-
+        }
         $('.nav-s').css(
           {'display': 'grid',
           'grid-template-columns': 'auto auto auto',
@@ -51,20 +62,23 @@ $(function() {
         'transition-timing-function': 'ease',
         'transition-delay': '0s'});
 
-        $('.el4').css({'font-size': '3rem', 
-        'line-height': '0rem', 
-        'padding': '30px 0px 0px 0px',
-        'transition-property': 'all',
-        'transition-duration': '0.5s',
-        'transition-timing-function': 'ease',
-        'transition-delay': '0s'});
-      
+        $('.el4').css({
+          'font-size': '2rem', 
+          'line-height': '0rem', 
+          'padding': '0px 0% 0px 0%',
+          'transition-property': 'all',
+          'transition-duration': '0.5s',
+          'transition-timing-function': 'ease',
+          'transition-delay': '0s'});
+  
         $('.nav-s').css(
-          {'display': 'none',
+          {'display': 'grid',
+          'grid-template-columns': 'auto auto auto',
           'transition-property': 'all',
           'transition-duration': '1s',
           'transition-timing-function': 'ease',
-          'transition-delay': '0s'}
+          'transition-delay': '0s',
+          'align-content': 'center'}
         );
 
 
@@ -79,10 +93,12 @@ $(function() {
     }
 
     if ($(window).width() <= 1076 && $(window).width() > 776) {
-      var mass = Math.max(2, 4-0.18*$(this).scrollTop()) + 'rem';
-      var pad = Math.max(13, 16-0.05*$(this).scrollTop()) + 'px';
-      $('.el4').css({'font-size': mass, 'line-height': mass, 'padding': pad});
-
+      if ($(window).scrollTop() > 0) {
+        $('.el4').css({'font-size': '2rem', 'line-height': '2rem', 'padding': '13px'});
+      }
+      else {
+        $('.el4').css({'font-size': '3rem', 'line-height': '3rem', 'padding': '15px'});
+      }
       $('.container').css({'width': '93%'});
 
       $('.nav-s').css(
@@ -99,9 +115,12 @@ $(function() {
       );
     }
    if ($(window).width() <= 1586  && $(window).width() > 1076) {
-      var mass = Math.max(2, 4-0.02*$(this).scrollTop()) + 'rem';
-      var pad = Math.max(5, 16-0.02*$(this).scrollTop()) + 'px';
-      $('.el4').css({'font-size': mass, 'line-height': mass, 'padding': pad});
+    if ($(window).scrollTop() > 0) {
+      $('.el4').css({'font-size': '2.2rem', 'line-height': '2.2rem', 'padding': '5px'});
+    }
+    else {
+      $('.el4').css({'font-size': '3.3rem', 'line-height': '3.3rem', 'padding': '16px'});
+    }
 
       $('.container').css({'width': '85%'});
 
@@ -121,9 +140,13 @@ $(function() {
 
     }
    if ($(window).width() > 1586) {
-      var mass = Math.max(3, 4.5-0.02*$(this).scrollTop()) + 'rem';
-      var pad = Math.max(10, 16-0.02*$(this).scrollTop()) + 'px';
-      $('.el4').css({'font-size': mass, 'line-height': mass, 'padding': pad});
+
+    if ($(window).scrollTop() > 0) {
+      $('.el4').css({'font-size': '2.9rem', 'line-height': '3rem', 'padding': '10px'});
+    }
+    else {
+      $('.el4').css({'font-size': '4.3rem', 'line-height': '4.5rem', 'padding': '16px'});
+    }
 
       $('.container').css({'width': '85rem'});
 
@@ -161,5 +184,3 @@ function openNavr() {
 function closeNavr() {
   document.getElementById("nav-r").style.width = "0%";
 }
-
-// $(".contentt").append("<br>maxScroll: " + $("body").height() + "x" + $(window).height() );
