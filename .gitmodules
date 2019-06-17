@@ -1,0 +1,3 @@
+[submodule "themes/bio1ixir-blog-theme"]
+	path = themes/bio1ixir-blog-theme
+	url = https://github.com/bio1ixir/bio1ixir-blog-theme.git
