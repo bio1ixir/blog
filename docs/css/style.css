@@ -224,6 +224,7 @@ html body .container .pool p {
     transition-duration: 0.5s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    outline: 0;
 }
 
 
