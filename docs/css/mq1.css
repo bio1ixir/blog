@@ -55,6 +55,7 @@
 
     .nav .nav-left a, .nav-right a {
         color: white;
+        outline: 0;
         text-decoration: none;
         font-family: 'Cinzel', serif;
         font-weight: 500;

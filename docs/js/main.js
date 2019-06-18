@@ -8,7 +8,7 @@ $(function() {
         'width': mass,
         'padding':'1rem 1.5rem',
         'transition-property': 'all',
-        'transition-duration': '0.5s',
+        'transition-duration': '0.3s',
         'transition-timing-function': 'ease',
         'transition-delay': '0s'});
 
@@ -38,7 +38,7 @@ $(function() {
           {'display': 'grid',
           'grid-template-columns': 'auto auto auto',
           'transition-property': 'all',
-          'transition-duration': '1s',
+          'transition-duration': '0.3s',
           'transition-timing-function': 'ease',
           'transition-delay': '0s',
           'align-content': 'center'}
@@ -57,7 +57,7 @@ $(function() {
         $('.container').css({'width': mass,
         'padding':'1rem 1.5rem',
         'transition-property': 'all',
-        'transition-duration': '0.5s',
+        'transition-duration': '0.3s',
         'padding': '1.4rem 1.5rem',
         'transition-timing-function': 'ease',
         'transition-delay': '0s'});
@@ -75,7 +75,7 @@ $(function() {
           {'display': 'grid',
           'grid-template-columns': 'auto auto auto',
           'transition-property': 'all',
-          'transition-duration': '1s',
+          'transition-duration': '0.3s',
           'transition-timing-function': 'ease',
           'transition-delay': '0s',
           'align-content': 'center'}

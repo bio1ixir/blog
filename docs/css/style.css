@@ -155,6 +155,7 @@ html body .container .pool p {
     transition-property: all;
     transition-duration: 0.8s;
     transition-timing-function: ease;
+    outline: 0;
     transition-delay: 0s;
 }
 
@@ -171,6 +172,7 @@ html body .container .pool p {
     transition-duration: 0.8s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    outline: 0;
 }
 
 .el1 {
@@ -349,11 +351,13 @@ footer .tag:hover {
     color: white;
     display: block;
     transition: 0.3s;
+    outline: 0;
   }
 
   .overlay-left a:hover, .overlay-left a:focus, .overlay-r a:hover, .overlay-r a:focus {
     color: #000000;
     font-size: 300%;
+    outline: 0;
   }
 
   .overlay-left .closebtn, .overlay-r .closebtn {
@@ -366,10 +370,11 @@ footer .tag:hover {
  
 
   @media screen and (max-height: 450px) {
-    .overlay-left a, .overlay-r a {font-size: 1.2rem}
+    .overlay-left a, .overlay-r a {font-size: 1.2rem; outline: 0;}
 
     .overlay-left a:hover, .overlay-left a:focus, .overlay-r a:hover, .overlay-r a:focus {
-        font-size: 200%
+        font-size: 200%;
+        outline: 0;
     }
     .overlay-r .closebtn, .overlay-left .closebtn {
     font-size: 3rem;
