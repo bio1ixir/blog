@@ -3,7 +3,7 @@ $(function() {
   $(window).scroll(function() {
     if ($(window).width() <= 776) {
       var mass = 100 + '%';
-      if ($(window).scrollTop() > 5) {
+      if ($(window).scrollTop() > 0) {
         $('.container').css({
         'width': mass,
         'padding':'1rem 1.5rem',
@@ -11,7 +11,16 @@ $(function() {
         'transition-duration': '0.3s',
         'transition-timing-function': 'ease',
         'transition-delay': '0s'});
-
+        
+        
+        $('.contact').css({
+          'width': mass,
+          'padding': '3rem 30px',
+          'transition-property': 'all',
+          'transition-duration': '0.3s',
+          'transition-timing-function': 'ease',
+          'transition-delay': '0s'});
+  
 
           if ($(window).width() <= 600) {
             $('.el4').css({
@@ -62,6 +71,14 @@ $(function() {
         'transition-timing-function': 'ease',
         'transition-delay': '0s'});
 
+        $('.contact').css({'width': mass,
+        'padding': '3rem 30px',
+        'transition-property': 'all',
+        'transition-duration': '0.3s',
+        'padding': '1.4rem 1.5rem',
+        'transition-timing-function': 'ease',
+        'transition-delay': '0s'});
+
         $('.el4').css({
           'font-size': '2rem', 
           'line-height': '0rem', 
@@ -93,13 +110,15 @@ $(function() {
     }
 
     if ($(window).width() <= 1076 && $(window).width() > 776) {
-      if ($(window).scrollTop() > 0) {
+      if ($(window).scrollTop() > 0.5) {
         $('.el4').css({'font-size': '2rem', 'line-height': '2rem', 'padding': '13px'});
       }
       else {
         $('.el4').css({'font-size': '3rem', 'line-height': '3rem', 'padding': '15px'});
       }
       $('.container').css({'width': '93%'});
+
+      $('.contact').css({'width': '93%'});
 
       $('.nav-s').css(
         {'display': 'none'}
@@ -115,7 +134,7 @@ $(function() {
       );
     }
    if ($(window).width() <= 1586  && $(window).width() > 1076) {
-    if ($(window).scrollTop() > 0) {
+    if ($(window).scrollTop() > 0.5) {
       $('.el4').css({'font-size': '2.2rem', 'line-height': '2.2rem', 'padding': '5px'});
     }
     else {
@@ -123,6 +142,8 @@ $(function() {
     }
 
       $('.container').css({'width': '85%'});
+
+      $('.contact').css({'width': '85%'});
 
       $('.nav-s').css(
         {'display': 'none'}
@@ -141,7 +162,7 @@ $(function() {
     }
    if ($(window).width() > 1586) {
 
-    if ($(window).scrollTop() > 0) {
+    if ($(window).scrollTop() > 0.5) {
       $('.el4').css({'font-size': '2.9rem', 'line-height': '3rem', 'padding': '10px'});
     }
     else {
@@ -149,6 +170,9 @@ $(function() {
     }
 
       $('.container').css({'width': '85rem'});
+
+      $('.contact').css({'width': '85rem'})
+
 
       $('.nav-s').css(
         {'display': 'none'}
