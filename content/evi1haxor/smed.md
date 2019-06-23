@@ -10,9 +10,13 @@ overview = "That would be so awful if I start explaining to you the importance o
 
 > This post was originally published on [E1ixir](https://e1ixir.netlify.com) by the same [author](https://github.com/evi1haxor/).
 
+<img class="c" src="https://raw.githubusercontent.com/bio1ixir/resources/master/blog/evi1/scenthu3.jpg">
+
+
+
 ## Scientific methods
 That would be so awful if I start explaining to you the importance of Science and over-the-top deal of certainty in scientific methods. So in laymen's words, you observe, enquire, do background research, make hypothesis, undertake rigorous experiments, formulate and test your hypothesis, modify your hypothesis and make conclusions accordingly to have a rich and juicy theory. This is the standard model or flow chart, how the research methodology should be.
-![Research methodology](https://raw.githubusercontent.com/evi1haxor/e1ixir/master/static/Screenshot_2018-09-02-12-45-51-493_net.ia.iawriter.png)
+<img class="b" src="https://raw.githubusercontent.com/evi1haxor/e1ixir/master/static/Screenshot_2018-09-02-12-45-51-493_net.ia.iawriter.png">
 
 
 
