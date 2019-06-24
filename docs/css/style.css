@@ -249,15 +249,65 @@ html body .container .pool p {
 }
 
 body .contact {
+    background: #556270;
+    background: -webkit-linear-gradient(35deg, #d664a1, #6e48aa);  
+    background: linear-gradient(-125deg, #d369c1e0, #793892);
     width: 85rem;
     margin: -1rem auto 100px auto;
     z-index: -1;
     padding:3rem 30px;
-    border:1px solid #ccc;
-    background-color: white;
-    border-radius: 25px;
+    border:1px solid black;
+    border-radius: 0 0 25px 25px;
     box-shadow: 0px 0px 25px #181617;
+    display: flex;
+    flex-direction: row;
+
 }
+
+body .contact div {
+    width: 300px;
+    margin: 0px auto;
+}
+
+body .contact span {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1.8px solid black;
+    padding-bottom: 9px;
+    color: white;
+}
+body .contact div ul {
+    font-family: 'Muli', serif;
+    list-style: none;
+    line-height: 27px;
+    font-size: 1rem;
+}
+
+body .contact a {
+    text-decoration: none;
+    color: rgb(228, 171, 233);
+}
+body .contact a:hover {
+    text-decoration: none;
+    color: rgb(250, 194, 255);
+}
+
+@media only screen and (max-width:930px) {
+    body .contact {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: '. ql''. ql'
+    }
+    body .contact div {
+        width: 42vw;
+    }
+    body .contact .ql {
+        grid-area: ql;
+    }
+}
+
 
 
 footer p {
