@@ -6,6 +6,8 @@ author = "Archit Dwivedi"
 overview = "B.Tech. in Bio engineering (formerly Biotechnology) at IITJ has seen its first  undergraduate batch in 2018. As I'm writing this, it makes the senior  most batch of this branch in sophomore year. Many things are yet to  happen to its first batch itself to which respect they can narrate the  know-hows to the world. But still, now that the question is here, I'd  give it a go."
 +++
 
+
+
 > Originally [answered](https://www.quora.com/How-is-B-Tech-in-Bioengineering-program-at-IIT-Jodhpur-with-respect-to-faculty-internship-and-student-exchange-programs/answer/Archit-Dwivedi-18) on Quora- [How is B.Tech. in Bioengineering program at IIT Jodhpur with respect to faculty, internship, and student exchange programs?](https://www.quora.com/How-is-B-Tech-in-Bioengineering-program-at-IIT-Jodhpur-with-respect-to-faculty-internship-and-student-exchange-programs)
 <hr>
 
@@ -77,27 +79,21 @@ So  that’s that for corporate jobs. Now if you are one of the inquisitive  kin
 - Active Biotech club [check [Bio1ixir](https://bio1ixir.github.io/)]
 - Other features of 4-year B.Tech. in Bioengineering (formerly B.Tech. in Biotechnology) are as following-
 
-**i.** *Option of 4 - year B.Tech. with Department Specialization in*
+i. *Option of 4 - year B.Tech. with Department Specialization in*
+- Smart Health care
+- Production realization
 
-	1. Smart Healthcare
+ii. *Option of 4 - year B.Tech. with Interdisciplinary Specialization in*
 
-	2. Product Realization
+- Artificial Intelligence (AI) [**WOW!**]
+- Data and Computational Science
+- Cognitive Science
 
-**ii.** *Option of 4 - year B.Tech. with Interdisciplinary Specialization in*
+iii. *Option of 4 - year B.Tech. with Minor in*
+-. Management
+-. Entrepreneurship
 
-	1. Artificial Intelligence (AI) [**WOW!**]
-
-	2. Data and Computational Science
-
-	3. Cognitive Science
-
-**iii.** *Option of 4 - year B.Tech. with Minor in*
-
-	1. Management
-
-	2. Entrepreneurship
-
-**iv.** *Option to convert B.Tech. into 5-year B.tech. + M.Tech. Dual Degree in 7th semester with M.Tech. in Bio-Engineering*
+iv. *Option to convert B.Tech. into 5-year B.tech. + M.Tech. Dual Degree in 7th semester with M.Tech. in Bio-Engineering*
 
 
 **Words of advise:** Don’t let yourself consumed by inferiority complex for not getting desired college/branch. **In coming years, you’d be glad that you got bio engineering even at such high rank**!
