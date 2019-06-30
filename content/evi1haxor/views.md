@@ -1,12 +1,16 @@
 +++
+
 title = "Bioengineering at IITJ"
+
 date = 2019-06-30T15:43:12+05:30
+
 draft = false
+
 author = "Archit Dwivedi"
+
 overview = "B.Tech. in Bio engineering (formerly Biotechnology) at IITJ has seen its first  undergraduate batch in 2018. As I'm writing this, it makes the senior  most batch of this branch in sophomore year. Many things are yet to  happen to its first batch itself to which respect they can narrate the  know-hows to the world. But still, now that the question is here, I'd  give it a go."
+
 +++
-
-
 
 > Originally [answered](https://www.quora.com/How-is-B-Tech-in-Bioengineering-program-at-IIT-Jodhpur-with-respect-to-faculty-internship-and-student-exchange-programs/answer/Archit-Dwivedi-18) on Quora- [How is B.Tech. in Bioengineering program at IIT Jodhpur with respect to faculty, internship, and student exchange programs?](https://www.quora.com/How-is-B-Tech-in-Bioengineering-program-at-IIT-Jodhpur-with-respect-to-faculty-internship-and-student-exchange-programs)
 <hr>
@@ -80,6 +84,7 @@ So  that’s that for corporate jobs. Now if you are one of the inquisitive  kin
 - Other features of 4-year B.Tech. in Bioengineering (formerly B.Tech. in Biotechnology) are as following-
 
 i. *Option of 4 - year B.Tech. with Department Specialization in*
+
 - Smart Health care
 - Production realization
 
@@ -90,8 +95,9 @@ ii. *Option of 4 - year B.Tech. with Interdisciplinary Specialization in*
 - Cognitive Science
 
 iii. *Option of 4 - year B.Tech. with Minor in*
--. Management
--. Entrepreneurship
+
+- Management
+- Entrepreneurship
 
 iv. *Option to convert B.Tech. into 5-year B.tech. + M.Tech. Dual Degree in 7th semester with M.Tech. in Bio-Engineering*
 
