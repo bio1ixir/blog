@@ -1,3 +1,4 @@
+```
 blog
 ├── archetypes
 │   └── default.md
@@ -82,4 +83,4 @@ blog
         └── theme.toml
 
 28 directories, 53 files
-
+```
