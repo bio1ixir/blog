@@ -15,7 +15,7 @@ overview = "That would be so awful if I start explaining to you the importance o
 
 
 ## Scientific methods
-That would be so awful if I start explaining to you the importance of Science and over-the-top deal of certainty in scientific methods. So in laymen's words, you observe, enquire, do background research, make hypothesis, undertake rigorous experiments, formulate and test your hypothesis, modify your hypothesis and make conclusions accordingly to have a rich and juicy theory. This is the standard model or flow chart, how the research methodology should be.
+That would be so awful if I start explaining to you the importance of Science and its over-the-top deal of certainty in scientific methods. So in laymen's words, you observe, enquire, do background research, make hypothesis, undertake rigorous experiments, formulate and test your hypothesis, modify your hypothesis and make conclusions accordingly to get yourself a rich and juicy theory. This is the standard model or flow chart, how the research methodology should be.
 <img class="b" src="https://raw.githubusercontent.com/evi1haxor/e1ixir/master/static/Screenshot_2018-09-02-12-45-51-493_net.ia.iawriter.png">
 
 
@@ -26,7 +26,7 @@ Also, it is of importance to know the limits of your experiment and to form test
 
 
 ## Experiment Designing
-To understand the concept, I'm gonna put it with an example. But before that, you are advised to read following prerequisite terminology and some other know-how.
+To understand the concept, I'm gonna put it with an example. But before that, you are advised to read following prerequisite jargon and some other know-hows.
 
 ### Terminology-
 
@@ -37,19 +37,18 @@ Effect engages with your belief system. It is when a positive effect is felt on 
 Those which are in Control group are not tested. A set of what is being studied, which are taken as reference for comparison are Control group.
 
 #### Scientific Test group:
-They are the ones whose factors are varied for studying the effects.
+They are the ones whose factors are varied for studying the effects and associated relationships.
 
 #### Variables:
 Variables are the factors or conditions which can be controlled so as to record the cause-effect relationship. There are three types of scientific variables-<br>
-1. **Independent Variables-** The factors which are _subjected for_ changes so that effects can be seen.<br>
-2. **Dependent Variables-** The factors which are _subjected to_ changes as the independent variables are manipulated.<br>
+1. **Independent Variables-** The factors which are ___subjected for___ changes so that effects can be seen.<br>
+2. **Dependent Variables-** The factors which are ___subjected to___ changes as the independent variables are manipulated.<br>
 3. **Control Variables-** These are the outcome of the fact that not all variables can be manipulated in control. So they are the factors which the researchers try to keep deliberately constant so that there can be a clear distinction of them from independent variables. They are also called **Constant Variables**.
 
 
-Let's take a simple example for this one. Say you're editing your picture on some photo editing app. Here, unedited version of your picture is **Control group**, picture opened on the app for editing is the **Test group**, filters which you're annexing to it are **Independent Variables**, looks of your picture is **Dependent Variable** and **Control Variables** may be the app you're using, or device on which you're editing, etc. Lame, but comprehensible...
+Let's take a simple example for this one. Say you're editing your picture on some photo editing app to study their cause- effect relationship. Here, unedited version of your picture is **Control group**, picture opened on the app for editing is the **Test group**, filters which you're annexing to it are **Independent Variables**, looks of your picture is **Dependent Variable** and **Control Variables** may be the app you're using, or device on which you're editing, etc. Lame, but comprehensible...
 
-
-Now let me paint another biotech oriented scenario for you. Afterall, as a biotechnologist, my content and experiment designs here should be biological.<br><br>
+Now let me paint another biotech oriented scenario for you. Afterall, as a biotechnologist, my content and experiment designs here should be biological at its core.<br><br>
 Most of the time at research work has to deal with cause-effect relationship of drug or chemicals or conditions on different kind of subjects. For this, the group of researchers who are studying them first define the key variables.  They take a special care to minimise the variation in constant variables so that potential impact on dependent variables can be minimised.<br>
 Now let's say a group of researchers are studying the effects of a drug on a group of sprint runners. So they _randomly_ give every volunteer a pill, which looks identical but aren't same in chemistry. Just that half of them were empty pills while half were the drug that is going to alter the independent variables within them. Here, it is noteworthy that drug should be distributed randomly, making sure that they follow _Double Blind_ technique. That is, people shouldn't know what pill they are taking so that Placebo effect can be avoided. Over that, even researchers shouldn't know what pill is taken by what examinee. They however, must preserve some traces of the pills from each runner so that they can be chemically studied for their composition so as to record which runner is taking what pill. Now you're probably sitting there and thinking- why can't even researchers know about which one is taking what pill? Well, you know many times we do things inadvertently. If they get to know that, then subconsciously they might give some minor signal, which might not go good in research perspective.<br>
 So here, the ones who are taking empty pills are the control group. Speed during the sprint is the Dependent variable. Things that the pill alters are independent variable.
