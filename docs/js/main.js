@@ -3,7 +3,7 @@ $(function() {
   $(window).scroll(function() {
     if ($(window).width() <= 776) {
       var mass = 100 + '%';
-      if ($(window).scrollTop() > 0) {
+      if ($(window).scrollTop() > 4) {
         $('.container').css({
         'width': mass,
         'padding':'1rem 1.5rem',
@@ -47,7 +47,7 @@ $(function() {
           {'display': 'grid',
           'grid-template-columns': 'auto auto auto',
           'transition-property': 'all',
-          'transition-duration': '0.3s',
+          'transition-duration': '0.1s',
           'transition-timing-function': 'ease',
           'transition-delay': '0s',
           'align-content': 'center'}
@@ -75,7 +75,6 @@ $(function() {
         'padding': '3rem 30px',
         'transition-property': 'all',
         'transition-duration': '0.3s',
-        'padding': '1.4rem 1.5rem',
         'transition-timing-function': 'ease',
         'transition-delay': '0s'});
 
@@ -92,7 +91,7 @@ $(function() {
           {'display': 'grid',
           'grid-template-columns': 'auto auto auto',
           'transition-property': 'all',
-          'transition-duration': '0.3s',
+          'transition-duration': '0.1s',
           'transition-timing-function': 'ease',
           'transition-delay': '0s',
           'align-content': 'center'}
