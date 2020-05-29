@@ -1,8 +1,7 @@
 +++
-date = "2019-06-10T15:55:18+05:30"
-draft = true
-title = "_index"
-
+title = ""
+date = 2020-05-29T11:19:04+05:30
+draft = false
+author = "Author"
+overview = "Overview"
 +++
-
-this is _index.md. donno what to do about it.
