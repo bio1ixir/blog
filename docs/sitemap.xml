@@ -3,41 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://bio1ixir.github.io/blog/</loc>
-    <lastmod>2020-05-29T11:19:04+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bio1ixir.github.io/blog/shivang/chandrayaan/</loc>
+    <loc>/</loc>
     <lastmod>2019-10-01T14:50:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://bio1ixir.github.io/blog/shivang/</loc>
+    <loc>/chandrayaan/</loc>
     <lastmod>2019-10-01T14:50:32+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://bio1ixir.github.io/blog/evi1haxor/views/</loc>
+    <loc>/views/</loc>
     <lastmod>2019-06-30T15:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://bio1ixir.github.io/blog/evi1haxor/</loc>
-    <lastmod>2019-06-30T15:43:12+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bio1ixir.github.io/blog/evi1haxor/smed/</loc>
+    <loc>/smed/</loc>
     <lastmod>2019-06-15T23:52:42+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://bio1ixir.github.io/blog/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://bio1ixir.github.io/blog/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
