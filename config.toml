@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://bio1ixir.github.io/blog/"
 languageCode = "en-us"
 title = "blog"
 theme = "bio1ixir-blog-theme"
