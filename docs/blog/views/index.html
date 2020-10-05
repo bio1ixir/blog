@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143268113-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142575114-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" media="screen and (max-width:1586px)" href="/css/mq1.css"> 
+    <link rel="stylesheet" media="screen and (max-width:1076px)" href="/css/mq2.css"> 
+    <link rel="stylesheet" media="screen and (max-width:776px)" href="/css/mq3.css"> 
+    <link rel="stylesheet" media="screen and (max-width:754px)" href="/css/mq4.css"> 
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
+.article-info {
+    display: grid;
+    padding: 20px 0 10px 0;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto; 
+}
+
+.container .main-content .title {
+        font-family: 'Fondamento', cursive;
+        font-size: 4.7rem;
+        padding: 70px 0px 0 0;
+        word-wrap: break-word;
+    }
+.container .content {
+    font-size: 1.4rem;
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 30px 3vw;
+    line-height: 2rem;
+}
+.pub-date, .eta, .author {
+    font-size: 1.4rem; 
+    font-family: 'Nixie One', cursive;
+    font-weight: 600;
+    line-height: 2rem;
+    color:rgba(64, 4, 82, 0.541);
+    padding: 0px 0px 0 10px;
+}
+pre code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color: rgb(145, 25, 139);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.content a {
+    text-decoration: none;
+    color:rgb(199, 62, 158);
+    outline: 0;
+}
+.content a:hover {
+    text-decoration: underline;
+    outline: 0;
+}
+.icon {
+    display: inline-block;
+    stroke: currentColor;
+    fill: none;
+    position: relative;
+    top: 0px;
+    height: 1rem;
+    width: 1rem;
+}
+.content img.a {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
+.content img.b {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
+.content img.c {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
+.content img.d {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
+@media only screen and (max-width:1076px) {
+    .container .content {
+    font-size: 1.4rem;
+    padding: 0 2vw;
+    line-height: 1.8rem;
+    }
+}
+@media only screen and (max-width:776px) {
+    .container .content {
+        font-size: 1.4rem;
+        padding: 0 2vw;
+        line-height: 1.8rem;
+    }
+    .container .main-content .title {
+        font-size: 4.4rem;
+    }
+}
+@media only screen and (max-width:667px) {
+    .article-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    }
+    .container .main-content .title {font-size: 10vw}
+
+    .content img.a, .content img.b, .content img.c, .content img.d {
+    width: 100%;
+    height: auto;
+    }
+}
+@media only screen and (max-width:476px) {
+    .container .content {
+    font-size: 1.2rem;
+    padding: 0 0vw;
+    line-height: 1.7rem;
+    }
+    .pub-date, .eta, .author {
+    font-size: 1rem; 
+    font-family: 'Nixie One', cursive;
+    font-weight: 600;
+    }
+    .container .main-content .title {font-size: 2.6rem}
+
+    .content img.a, .content img.b, .content img.c, .content img.d {
+    width: 100%;
+    height: auto;
+
+    }
+}
+
+
+</style>
+
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div id="nav-l" class="overlay-left">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavl()">&times;</a>
+            <div class="overlay-content">
+              <a href="https://bio1ixir.github.io/blog/">Blog</a>
+              <a href="https://bio1ixir.github.io/src/projects/">Projects</a>
+              <a href="https://bio1ixir.github.io/src/archives/">Archives</a>
+            </div>
+          </div>
+
+          <div id="nav-r" class="overlay-r">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNavr()">&times;</a>
+                <div class="overlay-content">
+                  <a href="https://bio1ixir.github.io/src/FFT/">FFT</a>
+                  <a href="https://bio1ixir.github.io/src/Testament/">Testament</a>
+                  <a href="#contacts">Contact</a>
+                </div>
+              </div>
+
+<div class="container animated fadeInDown delay-0s"> 
+    <div class="nav">
+        <div class="nav-left">
+            <div class="el1"><a href="/">Blog</a></div>
+            <div class="el2"><a href="https://bio1ixir.github.io/src/projects/">Projects</a></div>
+            <div class="el3"><a href="https://bio1ixir.github.io/src/archives/">Archives</a></div> 
+        </div> 
+
+        <div class="nav-s animated bounceInRight delay-0s">
+            <div></div>
+            <div><span style="font-size:20px;cursor:pointer" onclick="openNavl()"><i class="fa fa-align-left" area-hidden="true"></i></span></div>
+            <div></div>    
+        </div>
+
+        <div class="nav-center">
+        <div class="el4"><a class="button" href="https://bio1ixir.github.io/">Bio1ixir</a></div> 
+        </div>
+
+        <div class="nav-s animated bounceInLeft delay-0s">
+                <div></div> 
+                <div></div> 
+                <div><span style="font-size:20px;cursor:pointer" onclick="openNavr()"><i class="fa fa-align-right" area-hidden="true"></i></span></div>
+        </div>
+
+        <div class="nav-right">
+            <div class="el5"><a href="https://bio1ixir.github.io/src/FFT/">FFT</a></div>
+            <div class="el6"><a href="https://bio1ixir.github.io/src/Testament/">Testament</a></div>
+            <div class="el7"><a href="#contacts">Contact</a></div> 
+        </div> 
+    </div>
+        <div class="main-content">
+            
+    <div class="title">Bioengineering at IITJ </div>
+<div class="article-info">
+    <div class="author"><i class="fa fa-pencil-square-o" area-hidden="true"></i> Archit Dwivedi</div>
+    <div class="eta">
+        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 15 15"></polyline>
+        </svg>
+        6 mins read </div>
+    <div class="pub-date">
+        <svg class="icon" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+        
+      </svg> 
+      Jun 30, 2019</div>
+</div>
+<hr>
+    <div class="content"><blockquote>
+<p>Originally <a href="https://www.quora.com/How-is-B-Tech-in-Bioengineering-program-at-IIT-Jodhpur-with-respect-to-faculty-internship-and-student-exchange-programs/answer/Archit-Dwivedi-18">answered</a> on Quora- <a href="https://www.quora.com/How-is-B-Tech-in-Bioengineering-program-at-IIT-Jodhpur-with-respect-to-faculty-internship-and-student-exchange-programs">How is B.Tech. in Bioengineering program at IIT Jodhpur with respect to faculty, internship, and student exchange programs?</a></p>
+</blockquote>
+<!-- raw HTML omitted -->
+<p>B.Tech. in Bio engineering (formerly Biotechnology) at IITJ has seen its first  undergraduate batch in 2018. As I&rsquo;m writing this, it makes the senior  most batch of this branch in sophomore year. Many things are yet to  happen to its first batch itself to which respect they can narrate the  know-hows to the world. But still, now that the question is here, I&rsquo;d  give it a go.</p>
+<p><a href="http://iitj.ac.in/academics/index.php?&amp;id=acad_program&amp;prog=12"><strong>Bio engineering at IITJ</strong></a></p>
+<p>Till  2018, IITJ offered only M.Tech. and PhD programs in Bioscience and  Bioengineering. The state-of-the-art research infrastructure and  satisfactory output from the department are supposedly a few reasons  which might have forced the academic administration to start offering  B.Tech. program in Biotechnology since last year.</p>
+<p>As  stated on IITJ website also- The Department of Bioscience &amp;  Bioengineering aspires to cater to the technological requirements of the  country by conducting high-quality, translatable research and by  training our students to be technological innovators in Biological  sciences. The research effort of the Department is focused on developing  solutions in the areas of healthcare, the environment and agriculture.</p>
+<p>This  program is designed in accordance with current industrial demand  rectifying any chance of passing on obsolete technological approaches  and solutions. So don’t let anyone teach you that Indian engineering  institutes which offers biotechnology train their students with 4  thousand year old technology and all. Mind it!</p>
+<p><strong>Faculty Members:</strong>  Faculty Members of the department are highly qualified in their fields  of expertise which is evident by their over-the-top accomplishments and  research papers. They pursue complex biological questions in the fields  of Microbiology, Systems &amp; Computational Biology, Biomaterials &amp;  Biomechanics, and Biological Processes &amp; Bio-Devices.
+Cancer research has got quite a moot among the bt-minds of IITJ these days. A team from our department even <a href="http://iitj.ac.in/department/index.php?dept=biology&amp;id=research_highlights_and_initiatives&amp;num=264">got their paper published in Nature</a>!</p>
+<p>If  you ask me, I’d say in last two semesters biology lectures had been the  most interactive and interesting of all. You sure would learn a lot  more values from them than biology concepts.</p>
+<p><strong>Opportunities:</strong> The  Department actively collaborates with other Departments of the  Institute and with other Institutions of higher learning in and around  Jodhpur to maximize research and teaching outcomes. Faculty Members of  the Department have active collaborations with colleagues from many  prestigious institutes from India and beyond. Just to name some-</p>
+<ol>
+<li>King George’s Medical University Lucknow</li>
+<li>Sanjay Gandhi Post Graduate Institute of Medical Sciences, Lucknow</li>
+<li>CSIC-UAM, Universidad Autónoma de Madrid, Spain</li>
+<li>Johann Wolfgang Goethe-Universität Frankfurt, Germany</li>
+<li>Indian Institute of Technology Madras</li>
+<li>All India Institute of Medical Sciences, Jodhpur</li>
+<li>Indian Institute of Technology, Kharagpur</li>
+<li>Board of Research in Nuclear Sciences, Mumbai</li>
+<li>Institute of Bioinformatics and Applied Biotechnology, Bangalore</li>
+<li>Advanced Centre for Treatment, Research &amp; Education in Cancer (ACTREC)</li>
+<li>Tata Memorial Centre, Mumbai</li>
+<li>Rajiv Gandhi Centre for Biotechnology, Trivandrum</li>
+<li>University of North Carolina at Chapel Hill, USA</li>
+<li>Indian Institute of Technology Bombay</li>
+<li>Riken Brain Science Institute, Japan</li>
+<li>Nagoya University, Japan</li>
+<li>National Brain Research Centre, Gurgaon</li>
+<li>International Centre for Genetic Engineering and Biotechnology, New Delhi</li>
+<li>Christian Medical College, Vellore</li>
+<li>Vellore Institute of Technology, Vellore</li>
+<li>Madurai Kamaraj University, Madurai</li>
+<li>University of Kansas Medical Center, Kansas City, USA</li>
+<li>Indian Statistical Institute, Kolkata</li>
+<li>Friedrich-Alexander-University of Erlangen-Nürnberg, German</li>
+</ol>
+<p>That opens up plethora of opportunities for students associated with BSBE department of IITJ.
+Recently,  IITJ has signed a MoU with NAIST, JAPAN to facilitate academic  exchanges, student exchanges, higher studies and internship  opportunities.</p>
+<p>As  far as after-graduation opportunities are concerned- opportunities in  corporate sector based on India are less (comparatively). That’s because  it’s still emerging field in India and there is so much yet to do in  Indian biotech industry. Biotech firms in India are not putting enough  funds into R&amp;D consequently clogging the technology of 21st century  to flourish as it should have been. For example, Pharmaceutical  companies in India just tend to produce patented drugs most of the time,  giving rest to their research labs. <strong>But again…if biotech is not a good field ,</strong> <a href="https://en.wikipedia.org/wiki/Kiran_Mazumdar-Shaw"><strong>Kiran Mazumdar Shaw</strong></a> <strong>wouldn’t be a billionaire</strong>.
+Whilst in countries like China, the USA, etc. there are good…no..great opportunities. They’re doing great at it!</p>
+<p>Now  a question hits- Why is the pace of development in biotechnology slow  in India? [a question asked by me on Quora]. In response to my comment  under <a href="https://www.quora.com/Why-is-the-pace-of-development-in-biotechnology-slow-in-India/answer/Eshita-Sengupta?ch=10&amp;share=d19e58f8&amp;srid=tB7Yf">an answer</a> on the same question lies the possible explanation-</p>
+<blockquote>
+<p><strong>Me-</strong>  These arguments suggests that biotech sort-of &lsquo;exist&rsquo; in India. I&rsquo;m  pursuing B.Tech. in biotechnology. And what I have realized is that most  of the people in India who are in bioscience and bioengineering are  only into it because they&rsquo;ve got no option but to go in pursuit of that  only. Like when I asked my seniors (from other IITs) about future  prospects of B.Tech. in biotechnology, hardly anyone has told me about  future in &lsquo;Biotechnology&rsquo; as such. Everyone was so full of non-core job  prospects, doing MBA, etc. Whilst in countries like the USA, its  condition is equivalent to what Computer Science and Engineering or  Information Technology is in India. Why is that?</p>
+<p><a href="https://www.quora.com/profile/Ruptanu-Banerjee"><strong>Ruptanu Banerjee</strong></a><strong>-</strong> It’s  simply because the curriculum designed for Biotechnology is not fit for  a so called “9-to-5” jobs like those of IT sectors. A company with  IT/CS engineers are expected to do the job they are assigned by their  superiors in a particular time-frame. The same is not true for a biotech  job. There are n number of factors which can affect any  experiment/process any time. Yeah, it is true that there is a number of  students who are willing to go for a non-core job or administrative job.  The situation is not the same with USA or EU to some extent. It will be  vague to assume that all bachelor degree holders in those countries are  getting a biotech core job immediately after their 10+2+3/4.</p>
+</blockquote>
+<p>I leave rest over to you to develop your own perception about it.
+So  that’s that for corporate jobs. Now if you are one of the inquisitive  kinds, research is the way to go! And once you have your roots in the  core biology, there’s no stopping you! Even Govt.of India offers a  stipend amount to do M.Tech. and PhD in biotechnology. “<em>It ain’t much, but it’s honest work”</em> type stipend*.* Still, doing further studies from abroad is encouraged.</p>
+<p><strong>Perks:</strong></p>
+<ul>
+<li>Being  the first batch of B.Tech. program, direct mentoring from the  professors has always been a plus point for us. 2019 batch is no  different just a bunch of seniors extra to pick you up in the flow!</li>
+<li>Awesome seniors (like me :P)</li>
+<li>Active Biotech club [check <a href="https://bio1ixir.github.io/">Bio1ixir</a>]</li>
+<li>Other features of 4-year B.Tech. in Bioengineering (formerly B.Tech. in Biotechnology) are as following-</li>
+</ul>
+<p>i. <em>Option of 4 - year B.Tech. with Department Specialization in</em></p>
+<ul>
+<li>Smart Health care</li>
+<li>Production realization</li>
+</ul>
+<p>ii. <em>Option of 4 - year B.Tech. with Interdisciplinary Specialization in</em></p>
+<ul>
+<li>Artificial Intelligence (AI) [<strong>WOW!</strong>]</li>
+<li>Data and Computational Science</li>
+<li>Cognitive Science</li>
+</ul>
+<p>iii. <em>Option of 4 - year B.Tech. with Minor in</em></p>
+<ul>
+<li>Management</li>
+<li>Entrepreneurship</li>
+</ul>
+<p>iv. <em>Option to convert B.Tech. into 5-year B.tech. + M.Tech. Dual Degree in 7th semester with M.Tech. in Bio-Engineering</em></p>
+<p><strong>Words of advise:</strong> Don’t let yourself consumed by inferiority complex for not getting desired college/branch. <strong>In coming years, you’d be glad that you got bio engineering even at such high rank</strong>!</p>
+<p>Attaching some posters for your reference-</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</div>
+    <hr><br>
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bio1ixir" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        </div>
+        <a name="contacts"></a>
+
+    </div>
+    
+    <div class="animated fadeInUp delay-1s">
+        <div class="contact">
+                <div><span class="contacts">Contact</span>
+                    <ul>
+                            <li><a href="mailto:bio1ixir@googlegroups.com">Bio1ixir Google Group</a></li>
+                            <li><a href="mailto:bio1ixir.iitj@gmail.com">Executive Head</a></li>
+        
+                    </ul>
+                </div>
+    
+                <div class="ql"><span class="links">Quick Links</span>
+                    <ul>
+                        <li><a href="https://iitj.ac.in" target="_blank">IITJ website</a></li>
+                        <li><a href="http://iitj.ac.in/department/index.php?id=biology" target="_blank">BSBE Department</a></li>
+                        <li><a href="http://iitj.ac.in/academics/index.php?id=acad_program&&prog=46" target="_blank">Academia- IITJ</a></li>
+                        <li><a href="https://students.iitj.ac.in/" target="_blank">Students' Gymkhana- IITJ</a></li>
+                        <li><a href="http://iitj.ac.in/academics/index.php?id=academic_calendar" target="_blank">Academic Calendar</a></li>
+                        <li><a href="http://spc.iitj.ac.in/" target="_blank">Students' Placement Cell- IITJ</a></li>
+                        <li><a href="http://ir.iitj.ac.in:8080/jspui/" target="_blank">Institutional Repository</a></li>
+                        <li><a href="https://raw.githubusercontent.com/bio1ixir/resources/master/documents/bb.jpg" target="_blank">B.Tech. in Bioengineering</a></li>
+                        <li><a href="https://bio1ixir.github.io/src/Testament/" target="_blank">Testament- Executive Head</a></li>
+                        <li><a href="https://bio1ixir.github.io/src/contribute/" target="_blank">Contributors Manual</a></li>
+                        <li><a href="http://iitj.ac.in/footer/index.php?id=faq" target="_blank">FAQ- IITJ</a></li>
+                    </ul>
+                </div>
+    
+                <div><span class="get-involved">Get Involved</span>
+                    <ul>
+                        <li><a href="https://github.com/bio1ixir/" target="_blank">Contribute on GitHub</a></li>
+                        <li><a href="mailto:bio1ixir.iitj@gmail.com">Seed & Suggest</a></li>
+                        <li><a href="mailto:bio1ixir.iitj@gmail.com">Request Membership</a></li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+    
+    <footer class="animated fadeInup delay-0s">
+        <p class="footer-text">© 2020 Bio1ixir - IIT Jodhpur</p>
+        <p class="footer-text"><i class="fa fa-code" area-hidden="true"></i> with <i class="em em-brain"></i> by<br>
+        <a class="tag underline-magical" href="https://github.com/evi1haxor/" target="_blank">evi1haxor</a></p>
+    </footer>
+    </body>
+    
+    
+    <script type="text/javascript" src="/js/main.js"></script>
+    
+</html>
